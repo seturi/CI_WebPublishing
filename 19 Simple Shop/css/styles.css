@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+/* navbar */
+#navbar {
+  padding-left: 30px;
+  padding-right:30px;
+  background-color: white;
+  height: 60px;
+  line-height: 60px;
+}
+
+#logo {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;  
+}
+
+#rightbar {
+  font-family: "Helvetica";
+  font-size: 13px;
+  list-style: none;
+  margin: 0;
+  float: right;
+  text-align: center;
+}
+#rightbar li {
+  margin-left: 15px;
+  margin-right: 15px;
+  float: left;
+}
+
+#rightbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+/* hero header */
+#header {
+  background-image: url("../images/hero_header.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+}
+/* products */
+
+#grid {
+  width: 735px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grid a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Helvetica";
+  font-size: 24px;
+  color: #545454;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.product {
+  margin-bottom: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.product img{
+  width: 225px;
+  height: 225px;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-family: "Helvetica";
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  text-align:center;
+}
+
+.content h2 {
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.content p {
+  margin-top: 2px;
+}
+
+/* footer */
+#sns {
+  clear: left;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+#sns img{
+  margin-left: 10px;
+  margin-right:10px;
+  height: 20px;
+}

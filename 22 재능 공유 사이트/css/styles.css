@@ -1,0 +1,102 @@
+body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.carousel-item {
+    background-size: cover;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+}
+
+.carousel-inner .no1 {
+  background-image: url(../images/guitar.jpg);
+  background-position: left center;
+}
+
+.carousel-inner .no2 {
+  background-image: url(../images/makeup.jpg);
+  background-position: center top;
+}
+
+.carousel-inner .no3 {
+    background-image: url(../images/cooking.jpg);
+    background-position: center center;
+}
+
+.slides {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.slides h1 {
+  margin: 0;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+
+.slides p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 48px;
+}
+
+.slides a {
+  margin-top: 24px 0 0 0;
+  padding: 10px 30px;
+  background-color: #5900E7;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+
+.info {
+  padding: 10 10;
+}
+
+.info p {
+  font-size: 18px;
+  color: #4A4A4A;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+.info span {
+  font-size: 13px;
+  color: #4A4A4A;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+
+.info-box {
+  display: block;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+  text-decoration: none;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+
+
+.info-box img {
+  width: 100%;
+}
+
+.info img {
+  width: 20px;
+  height: 20px;
+}
+
+.alert alert-warning {
+  margin: 0 0 6px 0;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
